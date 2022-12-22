@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Studing\\Tasks\\perfect numbers\\perfect numbers\\perfect numbers.csproj",
-      "projectName": "perfect numbers",
-      "projectPath": "E:\\Studing\\Tasks\\perfect numbers\\perfect numbers\\perfect numbers.csproj",
+      "projectUniqueName": "E:\\Studing\\Tasks\\prime numbers\\prime numbers\\prime numbers.csproj",
+      "projectName": "prime numbers",
+      "projectPath": "E:\\Studing\\Tasks\\prime numbers\\prime numbers\\prime numbers.csproj",
       "packagesPath": "C:\\Users\\Es-Mohamed Ali\\.nuget\\packages\\",
-      "outputPath": "E:\\Studing\\Tasks\\perfect numbers\\perfect numbers\\obj\\",
+      "outputPath": "E:\\Studing\\Tasks\\prime numbers\\prime numbers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Es-Mohamed Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",

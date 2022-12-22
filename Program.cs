@@ -1,34 +1,34 @@
 ﻿using System;
 
-namespace perfect_numbers
+namespace prime_numbers
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("please enter the first number");
-            long num1 = long.Parse(Console.ReadLine());
-            Console.WriteLine("please enter the last number");
-            long num2 = long.Parse(Console.ReadLine());
-
-            for (long i = num1; i <= num2; i++)
-            {
-                long sum = 0;
-                for (long j = 1; j < i; j++)
-                {
-                    if (i % j == 0)
-                        sum = sum + j;
-
-                }
-                if (sum == i)
-                    Console.WriteLine(i);
-            }
-
-
-
-
-        }
-           
+            Console.WriteLine("Enter the first number");
+            int num1 =int.Parse (Console.ReadLine());
+           Console.WriteLine("Enter the last number") ;
             
+            int num2 =int.Parse (Console.ReadLine());
+            Console.WriteLine();
+  
+            for (int i = num1; i <= num2; i++)
+            {
+                byte divisors = 0;
+               for (int j = 1 ; j <= i; j++)
+                {
+                    if(i % j == 0)
+                    {
+                        divisors++;                           
+                    }
+                }
+
+                if(divisors == 2)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+        }
     }
 }
